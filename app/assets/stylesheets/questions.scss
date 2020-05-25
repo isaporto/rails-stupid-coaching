@@ -1,0 +1,64 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8)
+}
+.container {
+  font-size: 18px;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.container > h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.container a {
+  font-size: 15px;
+  text-decoration: none;
+}
+.from {
+  font-style: italic;
+  font-weight: 500;
+}
+.coach_answer {
+  font-weight: 500;
+}
+.coach_box {
+  padding: 5px;
+}
+
+.container > div {
+  border-left: 6px solid #DDDDDD;
+  padding-left: 15px;
+}
+#btn {
+  border-radius: 0 10px 10px 0;
+  height: 50px;
+}
+#input_question {
+  height: 50px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: none;
+  border: 1px solid #CCCCCC;
+  padding-left: 10px;
+  margin: 0;
+  width: 60%;
+  font-family: Roboto;
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+}
+#btn {
+  background-color: #337AB7;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border: none;
+  margin: 0;
+  color: white;
+  
+}
